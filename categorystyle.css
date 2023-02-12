@@ -1,0 +1,107 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-color:#111111;
+}
+section.top {
+    padding-top: 82px;
+}
+.container
+ {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.main_line 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;
+    width: 100%;
+    max-width: 50%;
+    height: 4px;
+    background-color: #24282C;
+    margin: 0px auto;
+}
+.dot {
+    height: 12px;
+    width: 12px;
+    background-color: #ffff;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 2px;
+    outline: 2px solid #111111;
+}
+
+.dot_main_class 
+{
+    border: 4px solid #12a9c9;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    margin: 0px 10px;
+    outline: 2px solid #111111;
+}
+
+.columns
+ {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 65px;
+    justify-content: space-around;
+    height: 425px;
+    
+}
+.left_col
+{
+    
+    height: 115px;
+    background: #24282C 0% 0% no-repeat padding-box;
+    border-radius: 12px 12px 0px 0px;
+}
+.right_col
+{ 
+
+    height: 115px;
+    background: #24282C 0% 0% no-repeat padding-box;
+    border-radius: 12px 12px 0px 0px;
+    
+}
+.heading {
+    font: normal normal bold 31px/37px RB;
+    color: #ffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 115px;
+    width: 571px;
+}
+ul.checkbox
+ {
+    display: flex;
+    list-style: none;
+    color: white;
+}
+li
+ {
+    list-style: none;
+    margin: 0px 10px;
+    text-align: left;
+}
+.items
+ {
+    border: 1px solid #24282C;
+    border-radius: 0px 0px 12px 12px;
+    height: 127px;
+    width: 571px;
+
+}
+.items ul {
+    display: flex;
+    flex-direction: row-reverse;
+    color: #fff;
+}
+
